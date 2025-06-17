@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from chapter1 import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('chapter1/', views.chapter1, name='chapter 1')
 ]
