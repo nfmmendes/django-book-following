@@ -3,4 +3,4 @@
 *.un~
 *.py~
 chapter1/chapter1/__init__.py
-chapter1/chapter1/__pycache__
+*__pycache__
